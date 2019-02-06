@@ -7,15 +7,18 @@ namespace Fisher.Bookstore.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Hello WorldAI");
+            //return Content("Hello WorldAI");
+            return View();
         }
         public IActionResult History()
         {
-            return Content("Hello WorldAH");
+            //return Content("Hello WorldAH");
+            return View();
         }
         public IActionResult Location()
         {
-            return Content("Hello WorldAL");
+            //return Content("Hello WorldAL");
+            return View();
         }
     }
 }
